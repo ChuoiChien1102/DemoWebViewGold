@@ -80,6 +80,16 @@
                                     <constraint firstAttribute="width" secondItem="KWK-uS-ysd" secondAttribute="height" multiplier="1:1" id="iEJ-XK-00c"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Lbl Text 3" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="rQO-jj-jGG">
+                                <rect key="frame" x="0.0" y="427" width="320" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="3cZ-Xw-6nG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.40760869570000002" green="0.40760869570000002" blue="0.40760869570000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -118,6 +128,7 @@
                         <outlet property="btnTry" destination="3FA-Py-9yj" id="471-hJ-9wa"/>
                         <outlet property="lblText1" destination="QB3-RL-6z2" id="98S-5B-VG9"/>
                         <outlet property="lblText2" destination="ngV-Dr-rFc" id="QHs-2x-n5X"/>
+                        <outlet property="lblText3" destination="rQO-jj-jGG" id="y7T-JR-3h1"/>
                         <outlet property="loadingSign" destination="WvH-iy-dUG" id="LbA-go-6lL"/>
                         <outlet property="offlineImageView" destination="cOD-pO-Q8E" id="xBR-MU-clP"/>
                         <outlet property="statusbarView" destination="kLd-eZ-EBz" id="C5P-Hv-qVo"/>
@@ -125,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="803" y="67"/>
+            <point key="canvasLocation" x="802.5" y="66.549295774647888"/>
         </scene>
         <!--Helper-->
         <scene sceneID="3ge-TN-5eY">
@@ -319,7 +330,6 @@
                 <navigationController storyboardIdentifier="homenavigation" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="hy4-TS-gM2" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="t2m-jz-s4e">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

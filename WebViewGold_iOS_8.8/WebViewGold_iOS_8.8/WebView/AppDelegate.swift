@@ -1,6 +1,10 @@
 //  OnlineAppCreator.com
 //  WebViewGold for iOS // webviewgold.com
 
+/* PLEASE CHECK CONFIG.SWIFT FOR CONFIGURATION */
+/* PLEASE CHECK CONFIG.SWIFT FOR CONFIGURATION */
+/* PLEASE CHECK CONFIG.SWIFT FOR CONFIGURATION */
+
 import UIKit
 import UserNotifications
 import OneSignal
@@ -10,7 +14,7 @@ import FirebaseMessaging
 import SwiftyStoreKit
 import AVFoundation
 
-var askforpushpermissionatfirstrun = true //Set to "true" to ask your users for push notifications permission at the first run of your application in general (for OneSignal, Firebase, and JavaScript API). Set it to "false" to never ask or to ask with a registerpush:// URL call in your web app later
+
 @UIApplicationMain
 
 
@@ -35,8 +39,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             InstanceID.instanceID().instanceID { (result, error) in
                 if let error = error {
                     print("Error fetching remote instange ID: \(error)")
+                    UserDefaults.standard.set("", forKey: "FirebaseID")
                 } else if let result = result {
                     print("Remote instance ID token: \(result.token)")
+                    UserDefaults.standard.set(result.token, forKey: "FirebaseID")
                     self.connectToFcm()
                 }
             }
@@ -85,7 +91,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                          kOSSettingsKeyInAppLaunchURL: true]
             
             
-            OneSignal.initWithLaunchOptions(launchOptions,appId: "74b245bd-6f49-4865-9235-e97b0389b012",handleNotificationAction: {(result) in let payload = result?.notification.payload
+            OneSignal.initWithLaunchOptions(launchOptions,appId: Constants.oneSignalID,handleNotificationAction: {(result) in let payload = result?.notification.payload
                 if let additionalData = payload?.additionalData {
                     
                     var noti_url = ""
@@ -257,12 +263,13 @@ extension AppDelegate: MessagingDelegate, UNUserNotificationCenterDelegate {
         
         InstanceID.instanceID().instanceID { (result, error) in
             if let error = error {
+                UserDefaults.standard.set("", forKey: "FirebaseID")
                 print("Error fetching remote instange ID: \(error)")
                 print("FCM: Token does not exist.")
-                
                 return
             } else if let result = result {
                 print("Remote instance ID token: \(result.token)")
+                UserDefaults.standard.set(result.token, forKey: "FirebaseID")
                 Messaging.messaging().shouldEstablishDirectChannel = true
                 Messaging.messaging().shouldEstablishDirectChannel = false
                 
