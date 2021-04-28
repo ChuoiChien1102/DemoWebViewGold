@@ -6,13 +6,14 @@
 // "Extended License" is required. More info: https://codecanyon.net/licenses/standard?ref=onlineappcreator
 // 2. Grab your Purchase Code (this is how to find it quickly: https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-)
 // 3. Great! Just enter it here and restart your app:
-var purchasecode = "xxxxxx-xxxxxx-xxxxxx-xxxxxx-xxxxxx"
+var purchasecode = "94d87131-8a23-44cc-8ba4-768febb55b8e"
+
 // 4. Enjoy your app! :)
 
 //Settings
-var host = "example.org" //Set your domain host without http:// or https:// prefixes and without any subdomain like "www."
+var host = "imozzo.com" //Set your domain host without http:// or https:// prefixes and without any subdomain like "www."
 
-var webviewurl = "https://www.example.org" //Set your full web app/website URL including http:// or https:// prefix and including subdomains like "www."
+var webviewurl = "https://www.imozzo.com" //Set your full web app/website URL including http:// or https:// prefix and including subdomains like "www."
 
 var darkmodewebviewurl = "" //This URL will be used if the iOS user activated Dark Mode. Leave empty to use the default URL. To use it, set your full web app/website URL including http:// or https:// prefix and including subdomains like "www."
 
@@ -69,7 +70,7 @@ var autoreconnecttext = "Attemping to reconnect..."
 var offlinebuttontext = "Try again now"  //Set the text label of the "Try again" button
 
 //"Rate this app on App Store" Dialog
-var activateratemyappdialog = true  //Set to "true" to activate the "Rate this app on App Store" dialog
+var activateratemyappdialog = false  //Set to "true" to activate the "Rate this app on App Store" dialog
 
 //"Follow on Facebook" Dialog
 var activatefacebookfriendsdialog = false  //Set to "true" to activate the "Follow on Facebook" dialog
@@ -100,13 +101,13 @@ var statusbarcolor = "black" //Define the text color of the status bar ("white" 
 var darkmodestatusbarcolor = "black" //Define the text color of the status bar ("white" or "black")  while user is using iOS Dark Mode; requires iOS 13 or higher
 
 //Set to "true" to prevent the device from going into sleep while the app is active
-var preventsleep = false
+var preventsleep = true
 
 //QR Code Scanner Configuration
 var qrcodelinks = "0" //Set to 0 to open QR Code links in your own main window; set to 1 to open the links in a new popup; set to 2 to open QR Code links in Safari
 
 //Universal Links & Deeplinking
-var ShowExternalLink = false //Set to "true" to register an iOS-wide URL scheme (like WebViewGold://) to open links in WebView app from other apps; example format: WebViewGold://url?link=https://www.google.com (would open google.com in WebView app). Please change the URL scheme from WebViewGold:// to YOUR-APP-NAME:// in Info.plist (further information in the documentation)
+var ShowExternalLink = true //Set to "true" to register an iOS-wide URL scheme (like WebViewGold://) to open links in WebView app from other apps; example format: WebViewGold://url?link=https://www.google.com (would open google.com in WebView app). Please change the URL scheme from WebViewGold:// to YOUR-APP-NAME:// in Info.plist (further information in the documentation)
 
 var remainSplashOption = false //Set to "true" if you want to display the Splash Screen until your page was loaded successfully
 
@@ -150,7 +151,7 @@ static let kPushReloadOnUserId  = false; //Set to true if WebView should be relo
 static let kPushOpenDeeplinkInBrowser  = false; //Set to true to open deeplinking URLs from OneSignal in the Safari browser instead of the main WebView
     
 //Firebase Push Configuration
-static let kFirebasePushEnabled   = false; //Set to true to activate the Firebase push functionality (before activating, please download and replace Google-ServiceInfo.plist from Firebase Dashboard)
+static let kFirebasePushEnabled   = true; //Set to true to activate the Firebase push functionality (before activating, please download and replace Google-ServiceInfo.plist from Firebase Dashboard)
 
 static let kFirebaseEnhanceUrl   = false; //Set to true if you want to extend WebView Main URL requests by ?firebase_push_id=XYZ
     
@@ -159,7 +160,7 @@ static var AdmobBannerID = "ca-app-pub-3940256099942544/2934735716" //Set the Ad
 
 static var AdmobinterstitialID = "ca-app-pub-3940256099942544/4411468910" //Set the AdMob ID for interstitial ads
 
-static let showBannerAd = false //Set to "true" to activate AdMob banner ads
+static let showBannerAd = true //Set to "true" to activate AdMob banner ads
 
 static let showFullScreenAd = false //Set to "true" to activate AdMob interstitial full-screen ads after X website clicks
 

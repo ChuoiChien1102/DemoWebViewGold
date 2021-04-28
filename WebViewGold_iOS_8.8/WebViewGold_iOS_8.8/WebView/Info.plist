@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en_US</string>
 	<key>CFBundleDisplayName</key>
-	<string>$(PRODUCT_NAME)</string>
+	<string>Imozzo</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -27,7 +27,7 @@
 			<string>com.Hawkscode.WebView</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>WebViewGold</string>
+				<string>Imozzo</string>
 			</array>
 		</dict>
 	</array>
