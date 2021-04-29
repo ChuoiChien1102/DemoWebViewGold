@@ -48,7 +48,7 @@ var useragent_iphone = ""  //Set a customized UserAgent on iPhone (or leave it e
 var useragent_ipad = ""  //Set a customized UserAgent on iPad (or leave it empty to use the default iOS iPad UserAgent)
 
 //"First Run" Alert Box
-var activatefirstrundialog = true  //Set to "true" to activate the "First run" dialog
+var activatefirstrundialog = false  //Set to "true" to activate the "First run" dialog
 
 var firstrunmessagetitle = "Welcome!"  //Set the title label of the "First run" dialog
 
