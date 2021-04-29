@@ -301,18 +301,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VqS-5s-9rg">
-                                <rect key="frame" x="80" y="204" width="160" height="160"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="VqS-5s-9rg" secondAttribute="height" multiplier="1:1" id="7es-wJ-egR"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="37K-66-M5B"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="VqS-5s-9rg" firstAttribute="centerY" secondItem="37K-66-M5B" secondAttribute="centerY" id="0Ye-Mr-JKF"/>
-                            <constraint firstItem="VqS-5s-9rg" firstAttribute="width" secondItem="CoZ-yB-gSJ" secondAttribute="width" multiplier="0.5" id="awf-KX-PZh"/>
-                            <constraint firstItem="VqS-5s-9rg" firstAttribute="centerX" secondItem="37K-66-M5B" secondAttribute="centerX" id="nIL-vs-7Gi"/>
+                            <constraint firstItem="VqS-5s-9rg" firstAttribute="top" secondItem="37K-66-M5B" secondAttribute="top" id="0jC-TH-JL9"/>
+                            <constraint firstItem="VqS-5s-9rg" firstAttribute="leading" secondItem="37K-66-M5B" secondAttribute="leading" id="cD7-Ej-9An"/>
+                            <constraint firstItem="37K-66-M5B" firstAttribute="trailing" secondItem="VqS-5s-9rg" secondAttribute="trailing" id="qth-8h-wo8"/>
+                            <constraint firstItem="37K-66-M5B" firstAttribute="bottom" secondItem="VqS-5s-9rg" secondAttribute="bottom" id="t8I-li-aPe"/>
                         </constraints>
                     </view>
                     <connections>
@@ -330,6 +328,7 @@
                 <navigationController storyboardIdentifier="homenavigation" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="hy4-TS-gM2" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="t2m-jz-s4e">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
