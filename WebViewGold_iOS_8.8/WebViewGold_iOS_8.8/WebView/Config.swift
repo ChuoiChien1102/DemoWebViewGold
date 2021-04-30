@@ -109,7 +109,7 @@ var qrcodelinks = "0" //Set to 0 to open QR Code links in your own main window; 
 //Universal Links & Deeplinking
 var ShowExternalLink = true //Set to "true" to register an iOS-wide URL scheme (like WebViewGold://) to open links in WebView app from other apps; example format: WebViewGold://url?link=https://www.google.com (would open google.com in WebView app). Please change the URL scheme from WebViewGold:// to YOUR-APP-NAME:// in Info.plist (further information in the documentation)
 
-var remainSplashOption = false //Set to "true" if you want to display the Splash Screen until your page was loaded successfully
+var remainSplashOption = true //Set to "true" if you want to display the Splash Screen until your page was loaded successfully
 
 //Custom CSS
 let cssString = "" //Set any CSS classes to inject them into the HTML rendered by the WebView. Leave empty to not inject custom CSS into your webpage when accessed in WebView
