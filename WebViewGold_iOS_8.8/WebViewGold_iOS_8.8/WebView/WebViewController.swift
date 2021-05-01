@@ -1541,7 +1541,7 @@ extension WebViewController: WKNavigationDelegate
             {
                 let scanner = QRCodeScannerController()
                 //let scanner = QRCodeScannerController(cameraImage: UIImage(named: "camera"), cancelImage: UIImage(named: "cancel"), flashOnImage: UIImage(named: "flash-on"), flashOffImage: UIImage(named: "flash-off"))
-                 scanner.delegate = self
+//                 scanner.delegate = self
                 scanner.modalPresentationStyle = .fullScreen
                 self.present(scanner, animated: true, completion: qrOnComplete)
             }

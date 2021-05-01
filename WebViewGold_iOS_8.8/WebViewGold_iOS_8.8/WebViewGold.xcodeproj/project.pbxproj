@@ -13,6 +13,7 @@
 		04FCA895242E1FDD00867141 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCA894242E1FDD00867141 /* iOSDevCenters+GIF.swift */; };
 		04FCA897242E201F00867141 /* splash.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04FCA896242E201F00867141 /* splash.gif */; };
 		13A5BAB93ADAD26819BEAEBE /* Pods_WebViewGold.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801EE600C338037248CD0991 /* Pods_WebViewGold.framework */; };
+		15CB16E1263DA5A100432481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CB16E0263DA5A100432481 /* Assets.xcassets */; };
 		1813F804259A59200063DAC3 /* OneSignalNotificationServiceExtension copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1813F803259A59200063DAC3 /* OneSignalNotificationServiceExtension copy-Info.plist */; };
 		18806FAE259748030001101F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18806FAD259748030001101F /* StoreKit.framework */; };
 		1F25A7722049C8D4008132D3 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F25A7682049C8D2008132D3 /* SVProgressHUD.bundle */; };
@@ -27,7 +28,6 @@
 		4C8E8BB123D7200A00CFF8DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E8BB023D7200A00CFF8DB /* GoogleService-Info.plist */; };
 		5229411A2331567B00B8ECA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8171D2141F6B096F00AA7B99 /* LaunchScreen.storyboard */; };
 		5229411B2331567D00B8ECA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8171D20F1F6B096F00AA7B99 /* Main.storyboard */; };
-		5229411C2331568300B8ECA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8171D2121F6B096F00AA7B99 /* Assets.xcassets */; };
 		52563C1B226F5C6B00393434 /* OneSignal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52563C1A226F5C6B00393434 /* OneSignal.framework */; };
 		528DC1BE2331729D00011EDC /* SVProgressHUD.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F25A7682049C8D2008132D3 /* SVProgressHUD.bundle */; };
 		6518C570227D555B0018F5CE /* IPAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6518C56F227D555B0018F5CE /* IPAViewController.swift */; };
@@ -81,6 +81,7 @@
 		04FCA892242E1ED200867141 /* SplashscreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashscreenVC.swift; sourceTree = "<group>"; };
 		04FCA894242E1FDD00867141 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
 		04FCA896242E201F00867141 /* splash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splash.gif; sourceTree = "<group>"; };
+		15CB16E0263DA5A100432481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1725EF0321B0207300A6B42D /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
 		1813F803259A59200063DAC3 /* OneSignalNotificationServiceExtension copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OneSignalNotificationServiceExtension copy-Info.plist"; sourceTree = "<group>"; };
 		18806FAD259748030001101F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -118,7 +119,6 @@
 		8171D20B1F6B096F00AA7B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8171D20D1F6B096F00AA7B99 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		8171D2101F6B096F00AA7B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8171D2121F6B096F00AA7B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8171D2151F6B096F00AA7B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8171D2171F6B096F00AA7B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = WebView/Info.plist; sourceTree = SOURCE_ROOT; };
 		8171D21E1F6B099E00AA7B99 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -243,8 +243,8 @@
 				04FCA892242E1ED200867141 /* SplashscreenVC.swift */,
 				04B99B08243B1415006E9F16 /* LoadindexpageVC.swift */,
 				8171D20F1F6B096F00AA7B99 /* Main.storyboard */,
-				8171D2121F6B096F00AA7B99 /* Assets.xcassets */,
 				8171D2141F6B096F00AA7B99 /* LaunchScreen.storyboard */,
+				15CB16E0263DA5A100432481 /* Assets.xcassets */,
 				8171D2171F6B096F00AA7B99 /* Info.plist */,
 				04FCA894242E1FDD00867141 /* iOSDevCenters+GIF.swift */,
 				493107952612A0EE008DB3D4 /* API.swift */,
@@ -279,7 +279,6 @@
 			buildConfigurationList = 4574400C20B890A000E6336E /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
 			buildPhases = (
 				5CB7F19B6486982E01449A2E /* [CP] Check Pods Manifest.lock */,
-				5A85D4EE2DC786DB8C6D902C /* Build Assets Catalog */,
 				4574400020B890A000E6336E /* Sources */,
 				4574400120B890A000E6336E /* Frameworks */,
 				4574400220B890A000E6336E /* Resources */,
@@ -389,8 +388,8 @@
 				1F25A7722049C8D4008132D3 /* SVProgressHUD.bundle in Resources */,
 				81E35FA31F7B9BB100766297 /* index.html in Resources */,
 				1813F804259A59200063DAC3 /* OneSignalNotificationServiceExtension copy-Info.plist in Resources */,
-				5229411C2331568300B8ECA6 /* Assets.xcassets in Resources */,
 				5229411B2331567D00B8ECA6 /* Main.storyboard in Resources */,
+				15CB16E1263DA5A100432481 /* Assets.xcassets in Resources */,
 				5229411A2331567B00B8ECA6 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,24 +397,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5A85D4EE2DC786DB8C6D902C /* Build Assets Catalog */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Build Assets Catalog";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n\n\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/Assets.xcassets\" false";
-		};
 		5CB7F19B6486982E01449A2E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -720,7 +701,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = WebViewGold.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -757,7 +737,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = WebViewGold.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
